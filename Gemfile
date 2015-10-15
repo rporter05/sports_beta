@@ -36,6 +36,15 @@ gem 'spring',        group: :development
 # Use bootstrap for styles
 gem 'bootstrap-sass', '~> 3.3.1'
 
+# Use devise for auth
+gem 'devise', '3.4.1'
+
+# Use stripe for handling payments
+gem 'stripe', '1.16.1'
+
+# Use figaro to hide secret keys
+gem 'figaro', '1.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
