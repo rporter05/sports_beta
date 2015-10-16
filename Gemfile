@@ -36,6 +36,9 @@ gem 'spring',        group: :development
 # Use bootstrap for styles
 gem 'bootstrap-sass', '~> 3.3.1'
 
+# Use font awesome library for icons
+gem 'font-awesome-sass', '4.2.0'
+
 # Use devise for auth
 gem 'devise', '3.4.1'
 
