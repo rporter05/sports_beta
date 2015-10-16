@@ -2,3 +2,12 @@
     <h1>SportsBee</h1>
     <h3>Get the facts on the latest sports news around the world in less than 7 minutes a day.</h3>
 </div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <div class="well">
+            <h4 class="text-center">Sign up with just your email address.</h4>
+            <br>
+            <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan.id), class: "btn btn-success btn-lg btn-block" %>
+        </div>
+    </div>
+</div>
